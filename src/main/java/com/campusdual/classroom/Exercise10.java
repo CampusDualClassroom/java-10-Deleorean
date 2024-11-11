@@ -35,11 +35,8 @@ public class Exercise10 {
             case 2:
                 color = "azul";
                 break;
-            case 3:
-                color = "verde";
-                break;
             default:
-                color = "invalid";
+                color = "verde";
                 break;
         }
         return color;
