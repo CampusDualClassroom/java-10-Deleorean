@@ -27,15 +27,22 @@ public class Exercise10 {
     // 2 → azul
     // 3 → verde
     public static String getBall() {
+        String color;
         switch (randomWithRange(1, 4)) {
             case 1:
-                return "rojo";
+                color = "rojo";
+                break;
             case 2:
-                return "azul";
+                color = "azul";
+                break;
             case 3:
-                return "verde";
+                color = "verde";
+                break;
+            default:
+                color = "invalid";
+                break;
         }
-        return "";
+        return color;
     }
 
 
